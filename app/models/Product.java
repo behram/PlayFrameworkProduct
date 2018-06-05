@@ -15,7 +15,7 @@ import play.db.ebean.Model;
 import play.utils.dao.BasicModel;
 
 @Entity
-@SuppressWarnings("serial")
+@SuppressWarnings("serial")  
 public class Product extends Model implements BasicModel<Long> {
 
 	@Id
